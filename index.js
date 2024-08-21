@@ -1,4 +1,4 @@
-
+function playDice() {
 
 var randomnumber1 = Math.floor(Math.random()*(6-1 +1)) + 1;
 
@@ -20,4 +20,4 @@ var randomnumber2 = Math.floor(Math.random()*(6-1 +1)) + 1;
         document.querySelector("h1").textContent = "it's a tie!"
      }
 
-
+}
